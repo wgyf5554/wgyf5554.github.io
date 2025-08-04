@@ -10,6 +10,46 @@
     <link rel="icon" href="./image/cs.png">
 </head>
     <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">主页</a>https://wgyf5554.github.io/</li>
+  <li><a href="#news">新闻</a>https://wgyf5554.github.io/5.html</li>
+  <li><a href="#contact">联系</a></li>
+  <li><a href="#about">关于</a></li>
+</ul>
+    <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
@@ -25,9 +65,6 @@
     </style>
 </head>
 <body>
-    <!-- 顶部图片 -->
-    <img src="cs.png" alt="MC图片" class="header-image" onerror="this.src='cs.png'">
-    
     <div class="content">
         <h1>欢迎来到我的服务器</h1>
         <p>我的服务器比较烂...</p>
